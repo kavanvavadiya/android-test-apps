@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Pi v0</string>
+    <string name="start_positioning">START POSITIONING</string>
+    <string name="stop_positioning">STOP POSITIONING</string>
+</resources>

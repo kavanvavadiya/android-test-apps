@@ -1,0 +1,61 @@
+{
+  "place_of_recording": "H9 room",
+  "type_of_test": "None",
+  "beacons": [
+    {
+      "type": "Kontakt iBeacon",
+      "kontakt_uid": "pKNF",
+      "ad_interval": 300,
+      "packet": "IBEACON",
+      "uuid": "b2dd3555ea394f08862a00fb026a800b",
+      "major": 1743,
+      "minor": 24356,
+      "position": {
+        "x": 0,
+        "y": 0,
+        "z": 2.204
+      },
+      "beacon_coeff": 1
+    },
+    {
+      "type": "Kontakt iBeacon",
+      "kontakt_uid": "JOgm",
+      "ad_interval": 300,
+      "packet": "IBEACON",
+      "uuid": "b2dd3555ea394f08862a00fb026a800b",
+      "major": 35378,
+      "minor": 59115,
+      "position": {
+        "x": 2,
+        "y": 0,
+        "z": 2.204
+      },
+      "shadow_coeff": 0
+    },
+    {
+      "type": "Kontakt iBeacon",
+      "kontakt_uid": "06wB",
+      "ad_interval": 300,
+      "packet": "IBEACON",
+      "uuid": "b2dd3555ea394f08862a00fb026a800b",
+      "major": 5700,
+      "minor": 53628,
+      "position": {
+        "x": 1,
+        "y": 2,
+        "z": 2.204
+      }
+    }
+  ],
+  "filters": [
+    {
+      "type": "Mean Filter",
+      "window_size": 3
+    }
+  ],
+  "path_loss": {
+    "exponent": 1.67,
+    "global_shadow_coeff": 0
+  },
+  "markers": []
+}

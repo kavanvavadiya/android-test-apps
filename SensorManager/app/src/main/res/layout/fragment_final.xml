@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FinalFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="114dp"
+        android:layout_marginTop="72dp"
+        android:width="189dp"
+        android:height="154dp"
+        android:background="#798387"
+        android:text="Save to     file"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="48sp" />
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="114dp"
+        android:layout_marginBottom="135dp"
+        android:width="189dp"
+        android:height="154dp"
+        android:background="#798387"
+        android:gravity="center_horizontal|center_vertical"
+        android:text="Upload to Database"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="40sp" />
+
+</RelativeLayout>
+</layout>

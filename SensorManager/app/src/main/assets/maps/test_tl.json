@@ -1,0 +1,107 @@
+{
+  "place_of_recording": "TL (inside room)",
+  "type_of_test": "Dynamic Position Labelling",
+  "beacons": [
+    {
+      "type": "Kontakt iBeacon",
+      "kontakt_uid": "0FG8",
+      "ad_interval": 300,
+      "packet": "IBEACON",
+      "uuid": "b2dd3555ea394f08862a00fb026a800b",
+      "major": 54474,
+      "minor": 40356,
+      "position": {
+        "x": 5.0,
+        "y": 5.0,
+        "z": 2.2
+      },
+      "beacon_coeff": 1
+    },
+    {
+      "type": "Kontakt iBeacon",
+      "kontakt_uid": "JOgm",
+      "ad_interval": 300,
+      "packet": "IBEACON",
+      "uuid": "b2dd3555ea394f08862a00fb026a800b",
+      "major": 35378,
+      "minor": 59115,
+      "position": {
+        "x": 5.0,
+        "y": 7.0,
+        "z": 2.2
+      },
+      "shadow_coeff": 0
+    },
+    {
+      "type": "Kontakt iBeacon",
+      "kontakt_uid": "06wB",
+      "ad_interval": 300,
+      "packet": "IBEACON",
+      "uuid": "b2dd3555ea394f08862a00fb026a800b",
+      "major": 5700,
+      "minor": 53628,
+      "position": {
+        "x": 7.0,
+        "y": 5.0,
+        "z": 2.2
+      }
+    },
+    {
+      "type": "Kontakt iBeacon",
+      "kontakt_uid": "pFAX",
+      "ad_interval": 300,
+      "packet": "IBEACON",
+      "uuid": "b2dd3555ea394f08862a00fb026a800b",
+      "major": 3787,
+      "minor": 3357,
+      "position": {
+        "x": 7.0,
+        "y": 7.0,
+        "z": 2.2
+      }
+    }
+  ],
+  "filters": [
+    {
+      "type": "Mean Filter",
+      "window_size": 3
+    }
+  ],
+  "path_loss": {
+    "exponent": 2,
+    "global_shadow_coeff": 0
+  },
+  "markers": [
+    {
+      "x": 4,
+      "y": 4
+    },
+    {
+      "x": 5,
+      "y": 4
+    },
+    {
+      "x": 6,
+      "y": 4
+    },
+    {
+      "x": 6,
+      "y": 5
+    },{
+      "x": 6,
+      "y": 6
+    },
+    {
+      "x": 5,
+      "y": 6
+    },
+    {
+      "x": 4,
+      "y": 6
+    },
+    {
+      "x": 4,
+      "y": 5
+    }
+  ]
+}

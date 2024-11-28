@@ -1,0 +1,118 @@
+{
+  "place_of_recording": "H17 hostel room",
+  "type_of_test": "None",
+  "beacons": [
+    {
+      "type": "Kontakt iBeacon",
+      "kontakt_uid": "8pqG",
+      "ad_interval": 300,
+      "packet": "IBEACON",
+      "uuid": "b2dd3555ea394f08862a00fb026a800b",
+      "major": 41758,
+      "minor": 31847,
+      "position": {
+        "x": 1.335,
+        "y": 0.100,
+        "z": 2.204
+      },
+      "beacon_coeff": 1
+    },
+    {
+      "type": "Kontakt iBeacon",
+      "kontakt_uid": "pFAX",
+      "ad_interval": 300,
+      "packet": "IBEACON",
+      "uuid": "b2dd3555ea394f08862a00fb026a800b",
+      "major": 3787,
+      "minor": 3357,
+      "position": {
+        "x": 3.025,
+        "y": 0.100,
+        "z": 2.204
+      },
+      "shadow_coeff": 0
+    },
+    {
+      "type": "Kontakt iBeacon",
+      "kontakt_uid": "OUX9",
+      "ad_interval": 300,
+      "packet": "IBEACON",
+      "uuid": "b2dd3555ea394f08862a00fb026a800b",
+      "major": 51748,
+      "minor": 12373,
+      "position": {
+        "x": 2.535,
+        "y": 2.530,
+        "z": 2.204
+      }
+    }
+  ],
+  "filters": [
+    {
+      "type": "Mean Filter",
+      "window_size": 3
+    }
+  ],
+  "path_loss": {
+    "exponent": 2,
+    "global_shadow_coeff": 0
+  },
+  "markers": [
+    {
+      "x": 2.642,
+      "y": 2.850
+    },
+    {
+      "x": 3.842,
+      "y": 2.850
+    },
+    {
+      "x": 5.042,
+      "y": 2.850
+    },
+    {
+      "x": 6.242,
+      "y": 2.850
+    },
+    {
+      "x": 7.442,
+      "y": 2.850
+    },
+    {
+      "x":8.642,
+      "y": 2.850
+    },
+    {
+      "x": 8.642,
+      "y": 4.050
+    },
+    {
+      "x": 8.642,
+      "y": 5.250
+    },
+    {
+      "x": 7.442,
+      "y": 5.250
+    },
+    {
+      "x": 6.242,
+      "y": 5.250
+    },
+    {
+      "x": 5.042,
+      "y": 5.250
+    },
+    {
+      "x": 3.842,
+      "y": 5.250
+    },
+    {
+      "x": 2.642,
+      "y": 5.250
+    },
+    {
+      "x": 2.642,
+      "y": 4.050
+    }
+  ]
+}

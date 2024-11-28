@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/homeFragment">
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.ihrsachin.sensoreventmanageger.HomeFragment"
+        android:label="fragment_home"
+        tools:layout="@layout/fragment_home" >
+        <action
+            android:id="@+id/action_homeFragment_to_recordDataFragment"
+            app:destination="@id/recordDataFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_downloadDataFragment"
+            app:destination="@id/downloadDataFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/recordDataFragment"
+        android:name="com.ihrsachin.sensoreventmanageger.RecordDataFragment"
+        android:label="fragment_record_data"
+        tools:layout="@layout/fragment_record_data" >
+        <action
+            android:id="@+id/action_recordDataFragment_to_stepRecordingFragment"
+            app:destination="@id/stepRecordingFragment" />
+        <action
+            android:id="@+id/action_recordDataFragment_to_markerBasedFragment"
+            app:destination="@id/markerBasedFragment" />
+
+    </fragment>
+    <fragment
+        android:id="@+id/stepRecordingFragment"
+        android:name="com.ihrsachin.sensoreventmanageger.StepRecordingFragment"
+        android:label="fragment_step_recording"
+        tools:layout="@layout/fragment_step_recording" >
+        <action
+            android:id="@+id/action_stepRecordingFragment_to_finalFragment"
+            app:destination="@id/finalFragment" />
+        <argument
+            android:name="sensorCodeArray"
+            app:argType="com.ihrsachin.sensoreventmanageger.models.IntegerArrayList"/>
+    </fragment>
+    <fragment
+        android:id="@+id/downloadDataFragment"
+        android:name="com.ihrsachin.sensoreventmanageger.DownloadDataFragment"
+        android:label="fragment_download_data"
+        tools:layout="@layout/fragment_download_data" />
+    <fragment
+        android:id="@+id/markerBasedFragment"
+        android:name="com.ihrsachin.sensoreventmanageger.MarkerBasedFragment"
+        android:label="fragment_marker_based"
+        tools:layout="@layout/fragment_marker_based" >
+        <action
+            android:id="@+id/action_markerBasedFragment_to_finalFragment"
+            app:destination="@id/finalFragment" />
+        <argument
+            android:name="sensorCodeArray"
+            app:argType="com.ihrsachin.sensoreventmanageger.models.IntegerArrayList"/>
+    </fragment>
+    <fragment
+        android:id="@+id/finalFragment"
+        android:name="com.ihrsachin.sensoreventmanageger.FinalFragment"
+        android:label="fragment_final"
+        tools:layout="@layout/fragment_final" />
+</navigation>

@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginStart="20dp"
+    android:layout_marginEnd="20dp"
+    tools:context=".DownloadDataFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="20dp"
+        android:text="Download data"
+        android:textSize="34sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.21"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/byUser"
+        android:layout_width="197dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView10"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="250dp"
+        android:text="By User"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:dropDownWidth="wrap_content" />
+
+    <TextView
+        android:id="@+id/byDate"
+        android:layout_width="197dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView10"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="374dp"
+        android:textColor="@color/black"
+        android:text="By Date"
+        android:textSize="20sp"
+        android:dropDownWidth="wrap_content" />
+
+    <CheckBox
+        android:id="@+id/user1"
+        android:layout_width="171dp"
+        android:layout_height="40dp"
+        android:layout_below="@+id/byUser"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="52dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="57dp"
+        android:scrollbarAlwaysDrawVerticalTrack="false"
+        android:text="User1"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <CheckBox
+        android:id="@+id/user2"
+        android:layout_width="171dp"
+        android:layout_height="40dp"
+        android:layout_below="@+id/byUser"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="52dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginBottom="57dp"
+        android:scrollbarAlwaysDrawVerticalTrack="false"
+        android:text="User2"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/recordType"
+        android:layout_width="197dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView10"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="83dp"
+        android:textSize="20sp"
+        android:text="By Recorder"
+        android:textColor="@color/black"
+        android:dropDownWidth="wrap_content" />
+
+    <CheckBox
+        android:id="@+id/Accel"
+        android:layout_width="171dp"
+        android:layout_height="40dp"
+        android:layout_below="@+id/recordType"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="52dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="57dp"
+        android:scrollbarAlwaysDrawVerticalTrack="false"
+        android:text="Accelerometer"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <CheckBox
+        android:id="@+id/Gyro"
+        android:layout_width="171dp"
+        android:layout_height="40dp"
+        android:layout_below="@+id/recordType"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="52dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginBottom="57dp"
+        android:scrollbarAlwaysDrawVerticalTrack="false"
+        android:text="Gyroscope"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <CheckBox
+        android:id="@+id/Mag"
+        android:layout_width="171dp"
+        android:layout_height="40dp"
+        android:layout_below="@+id/recordType"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="52dp"
+        android:layout_marginTop="70dp"
+        android:layout_marginBottom="57dp"
+        android:scrollbarAlwaysDrawVerticalTrack="false"
+        android:text="Magnetometer"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <CheckBox
+        android:id="@+id/Temp"
+        android:layout_width="171dp"
+        android:layout_height="40dp"
+        android:layout_below="@+id/recordType"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="52dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginBottom="57dp"
+        android:scrollbarAlwaysDrawVerticalTrack="false"
+        android:text="Temperature"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/editTextDate"
+        android:layout_width="148dp"
+        android:layout_height="42dp"
+        android:layout_below="@+id/byDate"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="61dp"
+        android:layout_marginTop="9dp"
+        android:ems="10"
+        android:inputType="date"
+        android:text="02/06/2023" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="196dp"
+        android:layout_height="68dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="59dp"
+        android:text="Download" />
+
+
+</RelativeLayout>
+</layout>

@@ -1,0 +1,242 @@
+{
+  "place_of_recording": "H-18 Common room(9th floor)",
+  "type_of_test": "Dynamic Position Labelling",
+  "beacons": [
+    {
+      "type": "Kontakt iBeacon",
+      "kontakt_uid": "aFQk",
+      "ad_interval": 300,
+      "packet": "IBEACON",
+      "uuid": "b2dd3555ea394f08862a00fb026a800b",
+      "major": 53349,
+      "minor": 61532,
+      "position": {
+        "x": 1.304,
+        "y": 2.862,
+        "z": 2.129
+      }
+    },
+    {
+      "type": "Kontakt iBeacon",
+      "kontakt_uid": "BNu4",
+      "ad_interval": 300,
+      "packet": "IBEACON",
+      "uuid": "b2dd3555ea394f08862a00fb026a800b",
+      "major": 15804,
+      "minor": 50863,
+      "position": {
+        "x": 1.314,
+        "y": 4.629,
+        "z": 2.129
+      }
+    },
+    {
+      "type": "Kontakt iBeacon",
+      "kontakt_uid": "Ca8t",
+      "ad_interval": 300,
+      "packet": "IBEACON",
+      "uuid": "b2dd3555ea394f08862a00fb026a800b",
+      "major": 41295,
+      "minor": 22532,
+      "position": {
+        "x": 1.304,
+        "y": 6.396,
+        "z": 2.129
+      }
+    },
+    {
+      "type": "Kontakt iBeacon",
+      "kontakt_uid": "5VXT",
+      "ad_interval": 300,
+      "packet": "IBEACON",
+      "uuid": "b2dd3555ea394f08862a00fb026a800b",
+      "major": 57113,
+      "minor": 3762,
+      "position": {
+        "x": 4.366,
+        "y": 2.872,
+        "z": 2.129
+      }
+    },
+    {
+      "type": "Kontakt iBeacon",
+      "kontakt_uid": "WKpC",
+      "ad_interval": 300,
+      "packet": "IBEACON",
+      "uuid": "b2dd3555ea394f08862a00fb026a800b",
+      "major": 46710,
+      "minor": 32451,
+      "position": {
+        "x": 4.376,
+        "y": 4.639,
+        "z": 2.129
+      }
+    },
+    {
+      "type": "Kontakt iBeacon",
+      "kontakt_uid": "1Wcd",
+      "ad_interval": 300,
+      "packet": "IBEACON",
+      "uuid": "b2dd3555ea394f08862a00fb026a800b",
+      "major": 63792,
+      "minor": 53955,
+      "position": {
+        "x": 4.366,
+        "y": 6.406,
+        "z": 2.129
+      }
+    },
+    {
+      "type": "Kontakt iBeacon",
+      "kontakt_uid": "IflB",
+      "ad_interval": 300,
+      "packet": "IBEACON",
+      "uuid": "b2dd3555ea394f08862a00fb026a800b",
+      "major": 16099,
+      "minor": 36890,
+      "position": {
+        "x": 6.792,
+        "y": 2.862,
+        "z": 2.129
+      }
+    },
+    {
+      "type": "Kontakt iBeacon",
+      "kontakt_uid": "X2s7",
+      "ad_interval": 300,
+      "packet": "IBEACON",
+      "uuid": "b2dd3555ea394f08862a00fb026a800b",
+      "major": 11030,
+      "minor": 43065,
+      "position": {
+        "x": 6.802,
+        "y": 4.629,
+        "z": 2.129
+      }
+    },
+    {
+      "type": "Kontakt iBeacon",
+      "kontakt_uid": "C8XM",
+      "ad_interval": 300,
+      "packet": "IBEACON",
+      "uuid": "b2dd3555ea394f08862a00fb026a800b",
+      "major": 11632,
+      "minor": 49605,
+      "position": {
+        "x": 6.792,
+        "y": 6.396,
+        "z": 2.129
+      }
+    },
+    {
+      "type": "Kontakt iBeacon",
+      "kontakt_uid": "TRn5",
+      "ad_interval": 300,
+      "packet": "IBEACON",
+      "uuid": "b2dd3555ea394f08862a00fb026a800b",
+      "major": 33752,
+      "minor": 56706,
+      "position": {
+        "x": 9.854,
+        "y": 2.872,
+        "z": 2.129
+      }
+    },
+    {
+      "type": "Kontakt iBeacon",
+      "kontakt_uid": "5t7N",
+      "ad_interval": 300,
+      "packet": "IBEACON",
+      "uuid": "b2dd3555ea394f08862a00fb026a800b",
+      "major": 48263,
+      "minor": 18218,
+      "position": {
+        "x": 9.864,
+        "y": 4.639,
+        "z": 2.129
+      }
+    },
+    {
+      "type": "Kontakt iBeacon",
+      "kontakt_uid": "UBuC",
+      "ad_interval": 300,
+      "packet": "IBEACON",
+      "uuid": "b2dd3555ea394f08862a00fb026a800b",
+      "major": 53652,
+      "minor": 14601,
+      "position": {
+        "x": 9.854,
+        "y": 6.406,
+        "z": 2.129
+      }
+    }
+  ],
+  "filters": [
+    {
+      "type": "Mean Filter",
+      "window_size": 3
+    }
+  ],
+  "path_loss": {
+    "exponent": 2,
+    "global_shadow_coeff": 0
+  },
+  "markers": [
+    {
+      "x": 2.642,
+      "y": 2.850
+    },
+    {
+      "x": 3.842,
+      "y": 2.850
+    },
+    {
+      "x": 5.042,
+      "y": 2.850
+    },
+    {
+      "x": 6.242,
+      "y": 2.850
+    },
+    {
+      "x": 7.442,
+      "y": 2.850
+    },
+    {
+      "x":8.642,
+      "y": 2.850
+    },
+    {
+      "x": 8.642,
+      "y": 4.050
+    },
+    {
+      "x": 8.642,
+      "y": 5.250
+    },
+    {
+      "x": 7.442,
+      "y": 5.250
+    },
+    {
+      "x": 6.242,
+      "y": 5.250
+    },
+    {
+      "x": 5.042,
+      "y": 5.250
+    },
+    {
+      "x": 3.842,
+      "y": 5.250
+    },
+    {
+      "x": 2.642,
+      "y": 5.250
+    },
+    {
+      "x": 2.642,
+      "y": 4.050
+    }
+  ]
+}
